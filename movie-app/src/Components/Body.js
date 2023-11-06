@@ -28,7 +28,7 @@ function Body() {
     const updatedUserMovies = userMovies.filter(
       (movie) => movie !== movieToDelete
     );
-    setUserMovies(updatedUserMovies);
+    setUserMovies(updatedUserMovies)
   };
 
   return (
